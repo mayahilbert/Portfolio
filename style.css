@@ -162,6 +162,12 @@ p.worktitle-potnis-website {
   padding: 8em 0 8em 0;
 }
 
+p.worktitle-resemblance-website {
+  background-image: url("images/resemblance_website-mockup.JPG");
+  background-size: cover;
+  padding: 8em 0 8em 0;
+}
+
 p.section-head {
   font-weight: 800;
 }
@@ -196,6 +202,10 @@ span.definition-word {
 
 .smallspacer {
   padding: 2rem;
+}
+
+p.resemblance-container {
+  background-color: #c00c50;
 }
 
 p.potnis-container {
