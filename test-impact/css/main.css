@@ -625,10 +625,10 @@ button {
     height: 100%;
   }
 
-  svg circle {
-    -webkit-transition: all 0s;
-    -o-transition: all 0s;
-    transition: all 0s;
+  g.circle-group {
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
   }
 
   svg circle.a1 {
@@ -636,16 +636,10 @@ button {
   }
 
   svg circle.a1 {
-    -webkit-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    transform: scale(1.5);
     fill-opacity: 1;
   }
 
   svg circle.c {
-    -webkit-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    transform: scale(1.5);
     fill-opacity: 1;
     stroke-width: 3px;
     stroke: rgba(236, 236, 251, 0.8);
@@ -653,9 +647,6 @@ button {
   }
 
   svg circle.a1+circle.a {
-    -webkit-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    transform: scale(1.5);
     stroke-width: 3px;
     stroke: rgba(236, 236, 251, 0.8);
     fill: rgba(107, 148, 219, 0.8);
