@@ -566,13 +566,13 @@ button {
   -webkit-transform: translate3d(0, 0, 0);
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 764px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
   .about-circle {
-    top: 6em;
+    top: 2em;
   }
 
   .project-1 {
-    top: 22em;
+    top: 14em;
   }
 
   .project-2 {
@@ -584,23 +584,29 @@ button {
   }
 
   .project-4 {
-    top: 57em;
+    top: 64em;
   }
 
   .project-5 {
-    top: 87em;
-  }
-
-  .impact-circle {
     top: 85em;
   }
 
-  .zero1-circle {
+  .impact-circle {
     top: 95em;
+  }
+
+  .zero1-circle {
+    top: 115em;
+  }
+
+  body.home-height {
+    height: 140em;
   }
 }
 
-@media only screen and (min-width: 768px) and (pointer: fine) and (hover: hover) {
+@media only screen and (min-width: 768px) and (pointer: fine) and (hover: hover) {}
+
+@media only screen and (min-width: 768px) {
   body.home-height {
     height: 100%;
     max-height: 95vh;
