@@ -630,16 +630,16 @@ button {
   }
 
   svg circle.a1 {
-    -webkit-transform: scale(150%);
-    -ms-transform: scale(150%);
-    transform: scale(150%);
+    -webkit-transform: scale(300%);
+    -ms-transform: scale(300%);
+    transform: scale(300%);
     fill-opacity: 1;
   }
 
   svg circle.c {
-    -webkit-transform: scale(150%);
-    -ms-transform: scale(150%);
-    transform: scale(150%);
+    -webkit-transform: scale(300%);
+    -ms-transform: scale(300%);
+    transform: scale(300%);
     fill-opacity: 1;
     stroke-width: 3px;
     stroke: rgba(236, 236, 251, 0.8);
@@ -647,9 +647,9 @@ button {
   }
 
   svg circle.a1+circle.a {
-    -webkit-transform: scale(150%);
-    -ms-transform: scale(150%);
-    transform: scale(150%);
+    -webkit-transform: scale(300%);
+    -ms-transform: scale(300%);
+    transform: scale(300%);
     stroke-width: 3px;
     stroke: rgba(236, 236, 251, 0.8);
     fill: rgba(107, 148, 219, 0.8);
