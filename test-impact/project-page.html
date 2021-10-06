@@ -1,0 +1,97 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>In Search of Truth</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+  <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+
+  <meta name="theme-color" content="#B2B4EF">
+</head>
+
+<body>
+
+  <nav class="bottom-border project-nav">
+    <a href="index.html" id="nav-home">In Search of Truth</a>
+    <span id="nav-date">2021</span>
+  </nav>
+  <div class="project-container">
+    <div class="project-header-container">
+      <h1 class="title">Artwork Title</h1>
+      <h2 class="artist">Artist Name(s)</h2>
+    </div>
+
+
+    <div class="slider-wrapper">
+      <div class="project-slider">
+        <div><img src="https://picsum.photos/1200/1300" /></div>
+
+        <div><img src="https://picsum.photos/1000/600" /></div>
+        <div><img src="https://picsum.photos/600/1000" /></div>
+        <div><img src="https://picsum.photos/1000/1000" /></div>
+
+        <div>
+          <div class="video-responsive"><iframe class="video-responsive-item" src="https://player.vimeo.com/video/253989945?h=c6db007fe5&color=ef2200&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen></iframe></div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+
+      </div>
+      <div class="project-description-container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo ipsum a pharetra facilisis. Donec eleifend non purus et condimentum. Praesent vestibulum ut ipsum eget aliquet. Phasellus laoreet iaculis tortor, sed dignissim neque
+          iaculis quis. Ut gravida urna at nisi ullamcorper congue. Mauris id nisl orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet,
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo ipsum a pharetra facilisis. Donec eleifend non purus et condimentum. Praesent vestibulum ut ipsum eget aliquet. Phasellus laoreet iaculis tortor, sed dignissim neque
+          iaculis quis. Ut gravida urna at nisi ullamcorper congue. Mauris id nisl orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, </p>
+      </div>
+    </div>
+  </div>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  <script>
+    let slider = tns({
+      "container": '.project-slider',
+      "autoWidth": true,
+      "items": 2,
+      "gutter": 10,
+      "mouseDrag": true,
+      "swipeAngle": false,
+      "speed": 400,
+      "loop": false,
+      "arrowKeys": true,
+      "autoHeight": true,
+
+      "nav": "false",
+      "controlsText": ["\&\#10229;", "\&\#10230"],
+      responsive: {
+        640: {
+          "autoHeight": true,
+        }
+      }
+
+    });
+  </script>
+</body>
+
+</html>
