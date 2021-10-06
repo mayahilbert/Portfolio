@@ -635,9 +635,9 @@ button {
   }
 
   g.circle-group g.circle-text {
-    -webkit-transform: scale(.6);
-    -ms-transform: scale(.6);
-    transform: scale(.6);
+    -webkit-transform: scale(.8);
+    -ms-transform: scale(.8);
+    transform: scale(.8);
     -webkit-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
