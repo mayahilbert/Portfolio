@@ -566,47 +566,47 @@ button {
   -webkit-transform: translate3d(0, 0, 0);
 }
 
-@media only screen and (min-device-width: 764px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   .about-circle {
-    top: 2em;
+    top: 2rem;
   }
 
   .project-1 {
-    top: 14em;
+    top: 14rem;
   }
 
   .project-2 {
-    top: 35em;
+    top: 35rem;
   }
 
   .project-3 {
-    top: 47em;
+    top: 47rem;
   }
 
   .project-4 {
-    top: 64em;
+    top: 64rem;
   }
 
   .project-5 {
-    top: 85em;
+    top: 85rem;
   }
 
   .impact-circle {
-    top: 95em;
+    top: 95rem;
   }
 
   .zero1-circle {
-    top: 115em;
+    top: 115rem;
   }
 
   body.home-height {
-    height: 140em;
+    height: 140rem;
   }
 }
 
 @media only screen and (min-width: 768px) and (pointer: fine) and (hover: hover) {}
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (pointer: fine) and (hover: hover) {
   body.home-height {
     height: 100%;
     max-height: 95vh;
