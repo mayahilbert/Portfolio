@@ -629,32 +629,36 @@ button {
     -webkit-transform: scale(1.5);
     -ms-transform: scale(1.5);
     transform: scale(1.5);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
   }
+}
 
-  svg circle.a1 {
-    fill-opacity: 0;
-  }
+svg circle.a1 {
+  fill-opacity: 0;
+}
 
-  svg circle.a1 {
-    fill-opacity: 1;
-  }
+svg circle.a1 {
+  fill-opacity: 1;
+}
 
-  svg circle.c {
-    fill-opacity: 1;
-    stroke-width: 3px;
-    stroke: rgba(236, 236, 251, 0.8);
-    fill: rgba(107, 148, 219, 1);
-  }
+svg circle.c {
+  fill-opacity: 1;
+  stroke-width: 3px;
+  stroke: rgba(236, 236, 251, 0.8);
+  fill: rgba(107, 148, 219, 1);
+}
 
-  svg circle.a1+circle.a {
-    stroke-width: 3px;
-    stroke: rgba(236, 236, 251, 0.8);
-    fill: rgba(107, 148, 219, 0.8);
-  }
+svg circle.a1+circle.a {
+  stroke-width: 3px;
+  stroke: rgba(236, 236, 251, 0.8);
+  fill: rgba(107, 148, 219, 0.8);
+}
 
-  svg g.circle-group * {
-    display: block;
-  }
+svg g.circle-group * {
+  display: block;
+}
 }
 
 @media only screen and (min-width: 764px) {
