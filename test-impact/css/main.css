@@ -566,7 +566,7 @@ button {
   -webkit-transform: translate3d(0, 0, 0);
 }
 
-@media only screen and (min-device-width: 834px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-device-width: 764px) and (max-device-width: 1024px) and (orientation: portrait) {
   .about-circle {
     top: 2em;
   }
