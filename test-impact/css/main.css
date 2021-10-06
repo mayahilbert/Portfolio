@@ -634,6 +634,7 @@ button {
     transform-origin: 50% 50%;
   }
 
+  /* 
   g.circle-group g.circle-text {
     -webkit-transform: scale(.8);
     -ms-transform: scale(.8);
@@ -641,8 +642,7 @@ button {
     -webkit-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
-  }
-
+  } */
   svg circle.a1 {
     fill-opacity: 0;
   }
