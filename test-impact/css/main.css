@@ -634,7 +634,11 @@ button {
     transform-origin: 50% 50%;
   }
 
-  /* 
+  .about-text {
+    transform: scale(0.8) translateX(14%);
+  }
+
+  /*
   g.circle-group g.circle-text {
     -webkit-transform: scale(.8);
     -ms-transform: scale(.8);
