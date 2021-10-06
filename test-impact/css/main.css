@@ -596,12 +596,12 @@ button {
   }
 
   svg circle.a1 {
-    transform: scale(150%);
+    transform: scale(200%);
     fill-opacity: 1;
   }
 
   svg circle.c {
-    transform: scale(150%);
+    transform: scale(200%);
     fill-opacity: 1;
     stroke-width: 3px;
     stroke: rgba(236, 236, 251, 0.8);
@@ -609,7 +609,7 @@ button {
   }
 
   svg circle.a1+circle.a {
-    transform: scale(150%);
+    transform: scale(200%);
     stroke-width: 3px;
     stroke: rgba(236, 236, 251, 0.8);
     fill: rgba(107, 148, 219, 0.8);
