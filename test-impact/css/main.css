@@ -566,46 +566,27 @@ button {
   -webkit-transform: translate3d(0, 0, 0);
 }
 
-@media only screen (min-width: 680px) and (max-width: 764px) {
+@media only screen and (orientation: portrait) {
+  .desktop-chart {
+    top: 20%;
+    min-height: auto;
+  }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 764px) {
   .circle {
-    height: 20vw;
-    width: 20vw;
+    height: 37vw;
+    width: 37vw;
   }
 
   .about-circle {
+    height: 30vw;
+    width: 30vw;
     top: 2rem;
   }
 
-  .project-1 {
-    top: 14rem;
-  }
-
-  .project-2 {
-    top: 35rem;
-  }
-
-  .project-3 {
-    top: 47rem;
-  }
-
-  .project-4 {
-    top: 64rem;
-  }
-
-  .project-5 {
-    top: 85rem;
-  }
-
-  .impact-circle {
-    top: 95rem;
-  }
-
-  .zero1-circle {
-    top: 115rem;
-  }
-
-  body.home-height {
-    height: 140rem;
+  body.home-height-long {
+    height: 120rem;
   }
 }
 
