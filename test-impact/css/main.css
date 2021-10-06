@@ -566,7 +566,12 @@ button {
   -webkit-transform: translate3d(0, 0, 0);
 }
 
-@media only screen (min-width: 768px) and (max-width: 1024px) {
+@media only screen (min-width: 680px) and (max-width: 764px) {
+  .circle {
+    height: 20vw;
+    width: 20vw;
+  }
+
   .about-circle {
     top: 2rem;
   }
@@ -604,7 +609,37 @@ button {
   }
 }
 
-@media only screen and (min-width: 768px) and (pointer: fine) and (hover: hover) {
+@media only screen and (pointer: coarse) and (hover: none) {
+  svg circle.a1 {
+    fill-opacity: 0;
+  }
+
+  svg circle.a1 {
+    transform: scale(150%);
+    fill-opacity: 1;
+  }
+
+  svg circle.c {
+    transform: scale(150%);
+    fill-opacity: 1;
+    stroke-width: 3px;
+    stroke: rgba(236, 236, 251, 0.8);
+    fill: rgba(107, 148, 219, 1);
+  }
+
+  svg circle.a1+circle.a {
+    transform: scale(150%);
+    stroke-width: 3px;
+    stroke: rgba(236, 236, 251, 0.8);
+    fill: rgba(107, 148, 219, 0.8);
+  }
+
+  svg g.circle-group * {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 764px) {
   body.home-height {
     height: 100%;
     max-height: 95vh;
