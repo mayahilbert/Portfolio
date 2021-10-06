@@ -634,9 +634,8 @@ button {
     transform-origin: 50% 50%;
   }
 
-  .about-text {
-    transform: scale(0.8) translateX(14%);
-    transform-origin: center center;
+  .impact-text {
+    font-size: 0.6em;
   }
 
   /*
