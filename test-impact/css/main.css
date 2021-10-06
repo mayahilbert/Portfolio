@@ -636,6 +636,7 @@ button {
 
   .about-text {
     transform: scale(0.8) translateX(14%);
+    transform-origin: center center;
   }
 
   /*
