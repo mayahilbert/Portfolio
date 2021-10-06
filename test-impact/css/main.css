@@ -566,7 +566,7 @@ button {
   -webkit-transform: translate3d(0, 0, 0);
 }
 
-@media only screen (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media only screen (min-width: 768px) and (max-width: 1024px) {
   .about-circle {
     top: 2rem;
   }
@@ -603,8 +603,6 @@ button {
     height: 140rem;
   }
 }
-
-@media only screen and (min-width: 768px) and (pointer: fine) and (hover: hover) {}
 
 @media only screen and (min-width: 768px) and (pointer: fine) and (hover: hover) {
   body.home-height {
