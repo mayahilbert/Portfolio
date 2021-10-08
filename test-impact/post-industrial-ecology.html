@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>In Search of Truth</title>
+  <meta name="description"
+    content="The virtual exhibition “In Search of Truth” is the result of a month-long creative and cultural exchange online program between Patrícia J. Reis and Stephanie Andrews, Jenny E. Balisle, Sharmi Basu, Erik Contreras, Marlys Mandaville, Avital Meshi and Parul Wadhwa.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="In Search of Truth">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+  <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+
+  <meta name="theme-color" content="#B2B4EF">
+</head>
+
+<body>
+
+  <nav class="bottom-border project-nav">
+    <a href="/" id="nav-home">In Search of Truth</a>
+    <span id="nav-date">2021</span>
+  </nav>
+  <div class="project-container padding-2rem-bottom">
+    <div class="project-header-container">
+      <h1 class="title">Post-Industrial Ecology</h1>
+      <h2 class="artist">Stephanie Andrews, Erik Contreras, Marlys Mandaville</h2>
+    </div>
+
+
+    <div class="slider-wrapper">
+      <div class="project-slider">
+        <div><img src="img/basu-1.jpg" /></div>
+        <div><img src="img/basu-2.jpg" /></div>
+
+        <div>
+          <div class="video-responsive"><iframe class="video-responsive-item" src="https://www.youtube.com/embed/cn7TtsmDLcM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <div class="video-wrap__grippy"></div>
+            <div class="video-wrap__grippy"></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="project-description-container">
+        <p><em>Moving towards a greener future, while also being confronted with the dirty truths of our industrial past.</em></p>
+
+        <p>This project is a speculative piece that confronts the challenge of foraging and farming in an industrial/urban environment — from toxic chemicals in our soil to human-made trash being dumped rather than recycled. </p>
+
+        <p>The search for truth here is an investigation of the emerging generative capabilities of 1) phytoremediative plants, 2) natural ecologies, and 3) post-consumer materials. This project chooses to accept the intermingling of natural and
+          human-made objects, and asks users if there can be a bright future where the two can cohabitate. </p>
+
+        <p>This project takes visitors on a post-industrial journey where they are asked to write their thoughts on post-industrial farming and foraging using a notebook and inkset created from foraged, plant-based materials. </p>
+
+        <p>To incorporate the unnatural, human-made elements of post-industrial life, the notebook is embedded with two sets of electrical contacts that are connected to an Arduino Uno. The Arduino is housed inside a microwave that has been converted
+          into a planter for phytoremediative plants. When connected, one contact set turns on the grow light, and the other contact set briefly turns on the built-in irrigation system. Visitors can bridge these contacts using the inksets, which have
+          conductive graphite powder embedded in the mixture. </p>
+
+        <p>As the visitor moves throughout the project, from writing in the notebook to interacting with the microwave planter, they are provided with QR codes that take them to our <a href="https://linktr.ee/industrial_ecologies"
+            target="_blank">linktr.ee site</a>. The site contains scientific papers related to the design object they are interacting with, and how it relates to the truths of post-industrial living, which include 1) challenges with growing plants in
+          contaminated soil, and 2) how phytoremediative plants can extract “forever chemicals” from the soil.</p>
+
+
+
+      </div>
+    </div>
+  </div>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  <script>
+    let slider = tns({
+      "container": '.project-slider',
+      "autoWidth": true,
+      "items": 2,
+      "gutter": 10,
+      "mouseDrag": true,
+      "swipeAngle": false,
+      "speed": 400,
+      "loop": false,
+      "arrowKeys": true,
+      "autoHeight": true,
+
+      "nav": "false",
+      "controlsText": ["\&\#10229;", "\&\#10230"],
+      responsive: {
+        640: {
+          "autoHeight": true,
+        }
+      }
+
+    });
+  </script>
+</body>
+
+</html>
