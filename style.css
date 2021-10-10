@@ -144,6 +144,18 @@ p.worktitle-news {
   padding: 8em 0 8em 0;
 }
 
+p.worktitle-rectoverso-website {
+  background-image: url("images/rectoverso_website-mockup.JPG");
+  background-size: cover;
+  padding: 8em 0 8em 0;
+}
+
+p.worktitle-rhee-website {
+  background-image: url("images/rhee_website-mockup.JPG");
+  background-size: cover;
+  padding: 8em 0 8em 0;
+}
+
 p.worktitle-rothenberg-website {
   background-image: url("images/rothenberg_website-mockup.JPG");
   background-size: cover;
@@ -202,6 +214,14 @@ span.definition-word {
 
 .smallspacer {
   padding: 2rem;
+}
+
+p.rectoverso-container {
+  background-color: #17244f;
+}
+
+p.rhee-container {
+  background-color: #191818;
 }
 
 p.resemblance-container {
