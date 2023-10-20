@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+
+    <link href="ableplayer/build/ableplayer.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div>
+        <div className="wrapper">
+            <div class="js-accordion" data-accordion-prefix-classes="g">
+                <h2 class="js-accordion__header" id="#heading-1">
+                    Heading 1
+                </h2>
+                <div class="js-accordion__panel">
+                    <video id="video1" data-able-player data-youtube-id="S9hDCskzWSM" preload="auto">
+                    </video>
+                </div>
+                <h2 class="js-accordion__header" id="#heading-2">
+                    Heading 2
+                </h2>
+                <div class="js-accordion__panel">
+                    Content </div>
+                <h2 class="js-accordion__header" id="#heading-3">
+                    Heading 3
+                </h2>
+                <div class="js-accordion__panel">
+                    Content </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="ableplayer/build/ableplayer.js"></script>
+    <script src="ableplayer/third-party/js-cookie.js"></script>
+
+    <script src="accordion.js"></script>
+
+</body>
+
+</html>

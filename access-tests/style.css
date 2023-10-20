@@ -1,0 +1,55 @@
+/**
+ * Don't edit this file. Find all style at ./sass folder.
+ **/
+@charset "UTF-8";
+
+.g-accordion button span {
+    pointer-events: none;
+}
+
+.g-accordion button a {
+    pointer-events: all;
+}
+
+.g-accordion__panel[aria-hidden=true] {
+    display: none;
+}
+
+.g-accordion__header {
+    text-align: left;
+    white-space: pre-wrap;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: inherit;
+    color: inherit;
+    border: none;
+    border-bottom: 1px solid currentColor;
+    font-size: 1em;
+    width: 100%;
+    line-height: 1;
+    padding: 1em;
+    flex-shrink: 1;
+}
+
+.g-accordion__header:after {
+    font-size: 1.7em;
+    font-weight: 500;
+    text-align: right;
+    padding-right: 0.5em;
+    flex-grow: 1;
+    width: 40%;
+}
+
+/* title opened */
+.g-accordion__header[aria-expanded=true]:after {
+    content: "\2212";
+}
+
+/* title closed */
+.g-accordion__header[aria-expanded=false]:after {
+    content: "+";
+}
+
+/*# sourceMappingURL=style.css.map */
