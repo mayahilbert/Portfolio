@@ -388,72 +388,72 @@ const main = () => {
 
                     }
 
-                    //// keyboard management for headers
-                    //if (hasClass(e.target, CONFIG.ACCORDION_JS_HEADER) === true && eventName === 'keydown') {
-                    //    let buttonTag = e.target;
-                    //    let idAccordionContainer = searchParent(buttonTag, CONFIG.ACCORDION_JS, hashId);
-                    //    let accordionContainer = findById(idAccordionContainer, hashId);
+                    // keyboard management for headers
+                    if (hasClass(e.target, CONFIG.ACCORDION_JS_HEADER) === true && eventName === 'keydown') {
+                        let buttonTag = e.target;
+                        let idAccordionContainer = searchParent(buttonTag, CONFIG.ACCORDION_JS, hashId);
+                        let accordionContainer = findById(idAccordionContainer, hashId);
 
-                    //    let coolSelectors = accordionContainer.hasAttribute(CONFIG.ACCORDION_DATA_COOL_SELECTORS) === true ? true : false;
-                    //    let $accordionAllHeaders = [].slice.call(accordionContainer.querySelectorAll('.' + CONFIG.ACCORDION_JS_HEADER));
+                        let coolSelectors = accordionContainer.hasAttribute(CONFIG.ACCORDION_DATA_COOL_SELECTORS) === true ? true : false;
+                        let $accordionAllHeaders = [].slice.call(accordionContainer.querySelectorAll('.' + CONFIG.ACCORDION_JS_HEADER));
 
-                    //    if (coolSelectors === false) {
-                    //        $accordionAllHeaders = $accordionAllHeaders.filter(element => element.parentNode.parentNode === accordionContainer);
-                    //    }
+                        if (coolSelectors === false) {
+                            $accordionAllHeaders = $accordionAllHeaders.filter(element => element.parentNode.parentNode === accordionContainer);
+                        }
 
-                    //    // strike home on a tab => 1st tab
-                    //    if (e.keyCode === 36) {
-                    //        unSelectHeaders($accordionAllHeaders, CONFIG.ATTR_SELECTED);
-                    //        selectHeader($accordionAllHeaders[0], CONFIG.ATTR_SELECTED);
-                    //        setTimeout(function() {
-                    //            $accordionAllHeaders[0].focus();
-                    //        }, 0);
-                    //        e.preventDefault();
-                    //    }
-                    //    // strike end on the tab => last tab
-                    //    else if (e.keyCode === 35) {
-                    //        unSelectHeaders($accordionAllHeaders, CONFIG.ATTR_SELECTED);
-                    //        selectHeader($accordionAllHeaders[$accordionAllHeaders.length - 1], CONFIG.ATTR_SELECTED);
-                    //        setTimeout(function() {
-                    //            $accordionAllHeaders[$accordionAllHeaders.length - 1].focus();
-                    //        }, 0);
-                    //        e.preventDefault();
-                    //    }
-                    //    // strike up or left on the tab => previous tab
-                    //    else if ((e.keyCode === 37) && !e.ctrlKey) {
+                        // strike home on a tab => 1st tab
+                        if (e.keyCode === 36) {
+                            unSelectHeaders($accordionAllHeaders, CONFIG.ATTR_SELECTED);
+                            selectHeader($accordionAllHeaders[0], CONFIG.ATTR_SELECTED);
+                            setTimeout(function() {
+                                $accordionAllHeaders[0].focus();
+                            }, 0);
+                            e.preventDefault();
+                        }
+                        // strike end on the tab => last tab
+                        else if (e.keyCode === 35) {
+                            unSelectHeaders($accordionAllHeaders, CONFIG.ATTR_SELECTED);
+                            selectHeader($accordionAllHeaders[$accordionAllHeaders.length - 1], CONFIG.ATTR_SELECTED);
+                            setTimeout(function() {
+                                $accordionAllHeaders[$accordionAllHeaders.length - 1].focus();
+                            }, 0);
+                            e.preventDefault();
+                        }
+                        // strike up or left on the tab => previous tab
+                        else if ((e.keyCode === 37) && !e.ctrlKey) {
 
-                    //        // if first selected = select last
-                    //        if ($accordionAllHeaders[0].getAttribute(CONFIG.ATTR_SELECTED) === 'true') {
-                    //            unSelectHeaders($accordionAllHeaders, CONFIG.ATTR_SELECTED);
-                    //            selectHeader($accordionAllHeaders[$accordionAllHeaders.length - 1], CONFIG.ATTR_SELECTED);
-                    //            setTimeout(function() {
-                    //                $accordionAllHeaders[$accordionAllHeaders.length - 1].focus();
-                    //            }, 0);
-                    //            e.preventDefault();
-                    //        } else {
-                    //            selectHeaderInList($accordionAllHeaders, 'prev', CONFIG.ATTR_SELECTED);
-                    //            e.preventDefault();
-                    //        }
+                            // if first selected = select last
+                            if ($accordionAllHeaders[0].getAttribute(CONFIG.ATTR_SELECTED) === 'true') {
+                                unSelectHeaders($accordionAllHeaders, CONFIG.ATTR_SELECTED);
+                                selectHeader($accordionAllHeaders[$accordionAllHeaders.length - 1], CONFIG.ATTR_SELECTED);
+                                setTimeout(function() {
+                                    $accordionAllHeaders[$accordionAllHeaders.length - 1].focus();
+                                }, 0);
+                                e.preventDefault();
+                            } else {
+                                selectHeaderInList($accordionAllHeaders, 'prev', CONFIG.ATTR_SELECTED);
+                                e.preventDefault();
+                            }
 
-                    //    }
-                    //    // strike down or right in the tab => next tab
-                    //    else if ((e.keyCode === 39) && !e.ctrlKey) {
+                        }
+                        // strike down or right in the tab => next tab
+                        else if ((e.keyCode === 39) && !e.ctrlKey) {
 
-                    //        // if last selected = select first
-                    //        if ($accordionAllHeaders[$accordionAllHeaders.length - 1].getAttribute(CONFIG.ATTR_SELECTED) === 'true') {
-                    //            unSelectHeaders($accordionAllHeaders, CONFIG.ATTR_SELECTED);
-                    //            selectHeader($accordionAllHeaders[0], CONFIG.ATTR_SELECTED);
-                    //            setTimeout(function() {
-                    //                $accordionAllHeaders[0].focus();
-                    //            }, 0);
-                    //            e.preventDefault();
-                    //        } else {
-                    //            selectHeaderInList($accordionAllHeaders, 'next', CONFIG.ATTR_SELECTED);
-                    //            e.preventDefault();
-                    //        }
+                            // if last selected = select first
+                            if ($accordionAllHeaders[$accordionAllHeaders.length - 1].getAttribute(CONFIG.ATTR_SELECTED) === 'true') {
+                                unSelectHeaders($accordionAllHeaders, CONFIG.ATTR_SELECTED);
+                                selectHeader($accordionAllHeaders[0], CONFIG.ATTR_SELECTED);
+                                setTimeout(function() {
+                                    $accordionAllHeaders[0].focus();
+                                }, 0);
+                                e.preventDefault();
+                            } else {
+                                selectHeaderInList($accordionAllHeaders, 'next', CONFIG.ATTR_SELECTED);
+                                e.preventDefault();
+                            }
 
-                    //    }
-                    //}
+                        }
+                    }
 
 
 
