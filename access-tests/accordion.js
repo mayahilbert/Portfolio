@@ -491,3 +491,8 @@ window.addEventListener('hashchange', function() {
         document.querySelector(hash).querySelector("button").click();
     }
 });
+
+var paragraph = document.getElementById("heading-1");
+var text = document.createTextNode("vv4");
+
+paragraph.appendChild(text);
