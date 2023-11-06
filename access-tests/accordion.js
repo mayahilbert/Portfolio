@@ -3,6 +3,10 @@
  * Website: https://van11y.net/accessible-accordion/
  * License MIT: https://github.com/nico3333fr/van11y-accessible-accordion-aria/blob/master/LICENSE
  */
+
+
+var paragraph = document.getElementById("heading-1");
+paragraph.appendChild("vv5");
 const loadConfig = () => {
 
     const CACHE = {};
@@ -491,8 +495,3 @@ window.addEventListener('hashchange', function() {
         document.querySelector(hash).querySelector("button").click();
     }
 });
-
-var paragraph = document.getElementById("heading-1");
-var text = document.createTextNode("vv4");
-
-paragraph.appendChild(text);
