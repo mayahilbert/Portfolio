@@ -5,7 +5,6 @@
  */
 
 
-document.getElementById("heading-1").textContent += "vv6";
 const loadConfig = () => {
 
     const CACHE = {};
