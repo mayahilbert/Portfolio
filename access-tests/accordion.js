@@ -131,31 +131,31 @@ const selectHeader = (el, attrSelected) => {
     el.setAttribute(attrSelected, true);
 }
 
-const selectHeaderInList = (elts, param, attrSelected) => {
-    let indice_trouve;
-    elts
-        .forEach((header_node, index) => {
+//const selectHeaderInList = (elts, param, attrSelected) => {
+//    let indice_trouve;
+//    elts
+//        .forEach((header_node, index) => {
 
-            if (header_node.getAttribute(attrSelected) === 'true') {
-                indice_trouve = index;
-            }
+//            if (header_node.getAttribute(attrSelected) === 'true') {
+//                indice_trouve = index;
+//            }
 
-        });
+//        });
 
-    if (param === 'next') {
-        selectHeader(elts[indice_trouve + 1]);
-        setTimeout(function() {
-            elts[indice_trouve + 1].focus();
-        }, 0);
-    }
-    if (param === 'prev') {
-        selectHeader(elts[indice_trouve - 1]);
-        setTimeout(function() {
-            elts[indice_trouve - 1].focus();
-        }, 0);
-    }
+//    if (param === 'next') {
+//        selectHeader(elts[indice_trouve + 1]);
+//        setTimeout(function() {
+//            elts[indice_trouve + 1].focus();
+//        }, 0);
+//    }
+//    if (param === 'prev') {
+//        selectHeader(elts[indice_trouve - 1]);
+//        setTimeout(function() {
+//            elts[indice_trouve - 1].focus();
+//        }, 0);
+//    }
 
-}
+//}
 
 
 const plugin = (config = {}) => {
